@@ -49,6 +49,8 @@
 		C65EC44824EAC8D700D8C439 /* ErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC44424EAC8D600D8C439 /* ErrorViewModel.swift */; };
 		C65EC44924EAC8D700D8C439 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC44524EAC8D600D8C439 /* ErrorViewController.swift */; };
 		C65EC44A24EAC8D700D8C439 /* StatePresentingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC44624EAC8D700D8C439 /* StatePresentingProtocol.swift */; };
+		C65EC44D24EACAF900D8C439 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC44C24EACAF900D8C439 /* Dependencies.swift */; };
+		C65EC45524EACB7900D8C439 /* FavoriteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC45424EACB7900D8C439 /* FavoriteManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +154,8 @@
 		C65EC44424EAC8D600D8C439 /* ErrorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewModel.swift; sourceTree = "<group>"; };
 		C65EC44524EAC8D600D8C439 /* ErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
 		C65EC44624EAC8D700D8C439 /* StatePresentingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatePresentingProtocol.swift; sourceTree = "<group>"; };
+		C65EC44C24EACAF900D8C439 /* Dependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		C65EC45424EACB7900D8C439 /* FavoriteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +228,9 @@
 		C65EC3A524EABDAB00D8C439 /* HSBCCities */ = {
 			isa = PBXGroup;
 			children = (
+				C65EC44C24EACAF900D8C439 /* Dependencies.swift */,
+				C65EC45224EACB5400D8C439 /* Managers&Services */,
+				C65EC44E24EACB0E00D8C439 /* Scenes */,
 				C65EC44124EAC8AA00D8C439 /* Reusables */,
 				C65EC43824EAC89300D8C439 /* Extensions */,
 				C65EC3A624EABDAB00D8C439 /* AppDelegate.swift */,
@@ -351,6 +358,53 @@
 				C65EC44524EAC8D600D8C439 /* ErrorViewController.swift */,
 			);
 			path = Error;
+			sourceTree = "<group>";
+		};
+		C65EC44E24EACB0E00D8C439 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C65EC45124EACB4000D8C439 /* CitiesList */,
+				C65EC45024EACB3700D8C439 /* CityDetails */,
+				C65EC44F24EACB2C00D8C439 /* CityVisitors */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C65EC44F24EACB2C00D8C439 /* CityVisitors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CityVisitors;
+			sourceTree = "<group>";
+		};
+		C65EC45024EACB3700D8C439 /* CityDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CityDetails;
+			sourceTree = "<group>";
+		};
+		C65EC45124EACB4000D8C439 /* CitiesList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CitiesList;
+			sourceTree = "<group>";
+		};
+		C65EC45224EACB5400D8C439 /* Managers&Services */ = {
+			isa = PBXGroup;
+			children = (
+				C65EC45324EACB7900D8C439 /* PersistentStorage */,
+			);
+			path = "Managers&Services";
+			sourceTree = "<group>";
+		};
+		C65EC45324EACB7900D8C439 /* PersistentStorage */ = {
+			isa = PBXGroup;
+			children = (
+				C65EC45424EACB7900D8C439 /* FavoriteManager.swift */,
+			);
+			path = PersistentStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -568,9 +622,11 @@
 				C65EC43E24EAC89300D8C439 /* UIViewController+Extensions.swift in Sources */,
 				C65EC43D24EAC89300D8C439 /* UIImageView+Extensions.swift in Sources */,
 				C65EC43F24EAC89300D8C439 /* UIView+Extensions.swift in Sources */,
+				C65EC45524EACB7900D8C439 /* FavoriteManager.swift in Sources */,
 				C65EC44024EAC89300D8C439 /* UIImage+Extensions.swift in Sources */,
 				C65EC3AB24EABDAB00D8C439 /* ViewController.swift in Sources */,
 				C65EC44824EAC8D700D8C439 /* ErrorViewModel.swift in Sources */,
+				C65EC44D24EACAF900D8C439 /* Dependencies.swift in Sources */,
 				C65EC44A24EAC8D700D8C439 /* StatePresentingProtocol.swift in Sources */,
 				C65EC44724EAC8D700D8C439 /* LoadingView.swift in Sources */,
 				C65EC44924EAC8D700D8C439 /* ErrorViewController.swift in Sources */,
