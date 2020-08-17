@@ -57,6 +57,7 @@
 		C65EC48524EACDDE00D8C439 /* CityRatingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC48224EACDDE00D8C439 /* CityRatingModel.swift */; };
 		C65EC48624EACDDE00D8C439 /* CityVisitorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC48324EACDDE00D8C439 /* CityVisitorsModel.swift */; };
 		C65EC48724EACDDE00D8C439 /* CityDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC48424EACDDE00D8C439 /* CityDetailsModel.swift */; };
+		C65EC48924EACE6000D8C439 /* CitiesListNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC48824EACE6000D8C439 /* CitiesListNetworkProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +169,7 @@
 		C65EC48224EACDDE00D8C439 /* CityRatingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityRatingModel.swift; sourceTree = "<group>"; };
 		C65EC48324EACDDE00D8C439 /* CityVisitorsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityVisitorsModel.swift; sourceTree = "<group>"; };
 		C65EC48424EACDDE00D8C439 /* CityDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailsModel.swift; sourceTree = "<group>"; };
+		C65EC48824EACE6000D8C439 /* CitiesListNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesListNetworkProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -400,6 +402,7 @@
 		C65EC45124EACB4000D8C439 /* CitiesList */ = {
 			isa = PBXGroup;
 			children = (
+				C65EC48824EACE6000D8C439 /* CitiesListNetworkProvider.swift */,
 				C65EC45624EACBCA00D8C439 /* Models */,
 			);
 			path = CitiesList;
@@ -673,6 +676,7 @@
 				C65EC43D24EAC89300D8C439 /* UIImageView+Extensions.swift in Sources */,
 				C65EC43F24EAC89300D8C439 /* UIView+Extensions.swift in Sources */,
 				C65EC45524EACB7900D8C439 /* FavoriteManager.swift in Sources */,
+				C65EC48924EACE6000D8C439 /* CitiesListNetworkProvider.swift in Sources */,
 				C65EC45924EACBCA00D8C439 /* CityModel.swift in Sources */,
 				C65EC48624EACDDE00D8C439 /* CityVisitorsModel.swift in Sources */,
 				C65EC45A24EACBCA00D8C439 /* CityViewModel.swift in Sources */,
