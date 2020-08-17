@@ -72,12 +72,15 @@ extension CitiesListViewController: CitiesListViewDelegate {
     func render(state: CitiesListViewModel.State) {
         switch state {
         case .failed(let errorViewModel):
+            print("Error: \(errorViewModel.description)")
             toggleFavoriteBarButtonItem.isEnabled = false
             presentErrorVC(withViewModel: errorViewModel)
         case .idle:
+            print("Idle")
             toggleFavoriteBarButtonItem.isEnabled = true
             removeAnyChildViews()
         case .loading:
+            print("Loading")
             presentLoadingIndicator()
             toggleFavoriteBarButtonItem.isEnabled = false
         case .presentingFiltered:
