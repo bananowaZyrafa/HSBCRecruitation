@@ -40,6 +40,7 @@
 		C65EC42924EAC44000D8C439 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC42424EAC44000D8C439 /* BaseCoordinator.swift */; };
 		C65EC42A24EAC44000D8C439 /* ParentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC42524EAC44000D8C439 /* ParentCoordinator.swift */; };
 		C65EC42B24EAC44000D8C439 /* PresentationStyleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC42624EAC44000D8C439 /* PresentationStyleEnum.swift */; };
+		C65EC42D24EAC50F00D8C439 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C65EC42C24EAC50F00D8C439 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,7 @@
 		C65EC42424EAC44000D8C439 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		C65EC42524EAC44000D8C439 /* ParentCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentCoordinator.swift; sourceTree = "<group>"; };
 		C65EC42624EAC44000D8C439 /* PresentationStyleEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStyleEnum.swift; sourceTree = "<group>"; };
+		C65EC42C24EAC50F00D8C439 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		C65EC39A24EABDAB00D8C439 = {
 			isa = PBXGroup;
 			children = (
+				C65EC42C24EAC50F00D8C439 /* Default-568h@2x.png */,
 				C65EC3A524EABDAB00D8C439 /* HSBCCities */,
 				C65EC3BC24EABDB100D8C439 /* HSBCCitiesTests */,
 				C65EC3CE24EAC11C00D8C439 /* Networking */,
@@ -475,6 +478,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C65EC3B024EABDB000D8C439 /* Assets.xcassets in Resources */,
+				C65EC42D24EAC50F00D8C439 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
