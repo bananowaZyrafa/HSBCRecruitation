@@ -32,6 +32,14 @@
 		C65EC40E24EAC30200D8C439 /* FakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC40924EAC30200D8C439 /* FakeService.swift */; };
 		C65EC40F24EAC30200D8C439 /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC40A24EAC30200D8C439 /* NetworkingTests.swift */; };
 		C65EC41024EAC30200D8C439 /* MockCitiesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC40B24EAC30200D8C439 /* MockCitiesResponse.swift */; };
+		C65EC41A24EAC41D00D8C439 /* Coordinators.h in Headers */ = {isa = PBXBuildFile; fileRef = C65EC41824EAC41D00D8C439 /* Coordinators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C65EC41D24EAC41D00D8C439 /* Coordinators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65EC41624EAC41D00D8C439 /* Coordinators.framework */; };
+		C65EC41E24EAC41D00D8C439 /* Coordinators.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C65EC41624EAC41D00D8C439 /* Coordinators.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C65EC42724EAC44000D8C439 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC42224EAC44000D8C439 /* CoordinatorProtocol.swift */; };
+		C65EC42824EAC44000D8C439 /* BootstrapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC42324EAC44000D8C439 /* BootstrapCoordinator.swift */; };
+		C65EC42924EAC44000D8C439 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC42424EAC44000D8C439 /* BaseCoordinator.swift */; };
+		C65EC42A24EAC44000D8C439 /* ParentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC42524EAC44000D8C439 /* ParentCoordinator.swift */; };
+		C65EC42B24EAC44000D8C439 /* PresentationStyleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC42624EAC44000D8C439 /* PresentationStyleEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +71,13 @@
 			remoteGlobalIDString = C65EC3CC24EAC11C00D8C439;
 			remoteInfo = Networking;
 		};
+		C65EC41B24EAC41D00D8C439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C65EC39B24EABDAB00D8C439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C65EC41524EAC41D00D8C439;
+			remoteInfo = Coordinators;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +88,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				C65EC3E324EAC11C00D8C439 /* Networking.framework in Embed Frameworks */,
+				C65EC41E24EAC41D00D8C439 /* Coordinators.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +126,14 @@
 		C65EC40924EAC30200D8C439 /* FakeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeService.swift; sourceTree = "<group>"; };
 		C65EC40A24EAC30200D8C439 /* NetworkingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkingTests.swift; path = ../../../Cities/Cities/NetworkingTests/NetworkingTests.swift; sourceTree = "<group>"; };
 		C65EC40B24EAC30200D8C439 /* MockCitiesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCitiesResponse.swift; sourceTree = "<group>"; };
+		C65EC41624EAC41D00D8C439 /* Coordinators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Coordinators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65EC41824EAC41D00D8C439 /* Coordinators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coordinators.h; sourceTree = "<group>"; };
+		C65EC41924EAC41D00D8C439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65EC42224EAC44000D8C439 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		C65EC42324EAC44000D8C439 /* BootstrapCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootstrapCoordinator.swift; sourceTree = "<group>"; };
+		C65EC42424EAC44000D8C439 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		C65EC42524EAC44000D8C439 /* ParentCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentCoordinator.swift; sourceTree = "<group>"; };
+		C65EC42624EAC44000D8C439 /* PresentationStyleEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStyleEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C65EC3E224EAC11C00D8C439 /* Networking.framework in Frameworks */,
+				C65EC41D24EAC41D00D8C439 /* Coordinators.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +168,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C65EC41324EAC41D00D8C439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -153,6 +185,7 @@
 				C65EC3BC24EABDB100D8C439 /* HSBCCitiesTests */,
 				C65EC3CE24EAC11C00D8C439 /* Networking */,
 				C65EC3DB24EAC11C00D8C439 /* NetworkingTests */,
+				C65EC41724EAC41D00D8C439 /* Coordinators */,
 				C65EC3A424EABDAB00D8C439 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -164,6 +197,7 @@
 				C65EC3B924EABDB100D8C439 /* HSBCCitiesTests.xctest */,
 				C65EC3CD24EAC11C00D8C439 /* Networking.framework */,
 				C65EC3D524EAC11C00D8C439 /* NetworkingTests.xctest */,
+				C65EC41624EAC41D00D8C439 /* Coordinators.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,6 +288,20 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		C65EC41724EAC41D00D8C439 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				C65EC42424EAC44000D8C439 /* BaseCoordinator.swift */,
+				C65EC42324EAC44000D8C439 /* BootstrapCoordinator.swift */,
+				C65EC42224EAC44000D8C439 /* CoordinatorProtocol.swift */,
+				C65EC42524EAC44000D8C439 /* ParentCoordinator.swift */,
+				C65EC42624EAC44000D8C439 /* PresentationStyleEnum.swift */,
+				C65EC41824EAC41D00D8C439 /* Coordinators.h */,
+				C65EC41924EAC41D00D8C439 /* Info.plist */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -262,6 +310,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C65EC3DF24EAC11C00D8C439 /* Networking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65EC41124EAC41D00D8C439 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65EC41A24EAC41D00D8C439 /* Coordinators.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +337,7 @@
 			);
 			dependencies = (
 				C65EC3E124EAC11C00D8C439 /* PBXTargetDependency */,
+				C65EC41C24EAC41D00D8C439 /* PBXTargetDependency */,
 			);
 			name = HSBCCities;
 			productName = HSBCCities;
@@ -342,6 +399,24 @@
 			productReference = C65EC3D524EAC11C00D8C439 /* NetworkingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C65EC41524EAC41D00D8C439 /* Coordinators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65EC41F24EAC41D00D8C439 /* Build configuration list for PBXNativeTarget "Coordinators" */;
+			buildPhases = (
+				C65EC41124EAC41D00D8C439 /* Headers */,
+				C65EC41224EAC41D00D8C439 /* Sources */,
+				C65EC41324EAC41D00D8C439 /* Frameworks */,
+				C65EC41424EAC41D00D8C439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coordinators;
+			productName = Coordinators;
+			productReference = C65EC41624EAC41D00D8C439 /* Coordinators.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -366,6 +441,10 @@
 						CreatedOnToolsVersion = 11.3;
 						TestTargetID = C65EC3A224EABDAB00D8C439;
 					};
+					C65EC41524EAC41D00D8C439 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
 				};
 			};
 			buildConfigurationList = C65EC39E24EABDAB00D8C439 /* Build configuration list for PBXProject "HSBCCities" */;
@@ -385,6 +464,7 @@
 				C65EC3B824EABDB100D8C439 /* HSBCCitiesTests */,
 				C65EC3CC24EAC11C00D8C439 /* Networking */,
 				C65EC3D424EAC11C00D8C439 /* NetworkingTests */,
+				C65EC41524EAC41D00D8C439 /* Coordinators */,
 			);
 		};
 /* End PBXProject section */
@@ -413,6 +493,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C65EC3D324EAC11C00D8C439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65EC41424EAC41D00D8C439 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,6 +557,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C65EC41224EAC41D00D8C439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65EC42B24EAC44000D8C439 /* PresentationStyleEnum.swift in Sources */,
+				C65EC42A24EAC44000D8C439 /* ParentCoordinator.swift in Sources */,
+				C65EC42724EAC44000D8C439 /* CoordinatorProtocol.swift in Sources */,
+				C65EC42924EAC44000D8C439 /* BaseCoordinator.swift in Sources */,
+				C65EC42824EAC44000D8C439 /* BootstrapCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -492,6 +591,11 @@
 			isa = PBXTargetDependency;
 			target = C65EC3CC24EAC11C00D8C439 /* Networking */;
 			targetProxy = C65EC3E024EAC11C00D8C439 /* PBXContainerItemProxy */;
+		};
+		C65EC41C24EAC41D00D8C439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C65EC41524EAC41D00D8C439 /* Coordinators */;
+			targetProxy = C65EC41B24EAC41D00D8C439 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -790,6 +894,65 @@
 			};
 			name = Release;
 		};
+		C65EC42024EAC41D00D8C439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DNVNQCZ59K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Coordinators/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bartosz.Wolinski.Coordinators;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C65EC42124EAC41D00D8C439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DNVNQCZ59K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Coordinators/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bartosz.Wolinski.Coordinators;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -834,6 +997,15 @@
 			buildConfigurations = (
 				C65EC3E924EAC11C00D8C439 /* Debug */,
 				C65EC3EA24EAC11C00D8C439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65EC41F24EAC41D00D8C439 /* Build configuration list for PBXNativeTarget "Coordinators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65EC42024EAC41D00D8C439 /* Debug */,
+				C65EC42124EAC41D00D8C439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
