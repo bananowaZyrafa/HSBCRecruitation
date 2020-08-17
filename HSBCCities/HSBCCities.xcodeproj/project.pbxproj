@@ -53,6 +53,10 @@
 		C65EC45524EACB7900D8C439 /* FavoriteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC45424EACB7900D8C439 /* FavoriteManager.swift */; };
 		C65EC45924EACBCA00D8C439 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC45724EACBCA00D8C439 /* CityModel.swift */; };
 		C65EC45A24EACBCA00D8C439 /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC45824EACBCA00D8C439 /* CityViewModel.swift */; };
+		C65EC48024EACCCF00D8C439 /* APIResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC47F24EACCCF00D8C439 /* APIResponses.swift */; };
+		C65EC48524EACDDE00D8C439 /* CityRatingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC48224EACDDE00D8C439 /* CityRatingModel.swift */; };
+		C65EC48624EACDDE00D8C439 /* CityVisitorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC48324EACDDE00D8C439 /* CityVisitorsModel.swift */; };
+		C65EC48724EACDDE00D8C439 /* CityDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC48424EACDDE00D8C439 /* CityDetailsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +164,10 @@
 		C65EC45424EACB7900D8C439 /* FavoriteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteManager.swift; sourceTree = "<group>"; };
 		C65EC45724EACBCA00D8C439 /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		C65EC45824EACBCA00D8C439 /* CityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		C65EC47F24EACCCF00D8C439 /* APIResponses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponses.swift; sourceTree = "<group>"; };
+		C65EC48224EACDDE00D8C439 /* CityRatingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityRatingModel.swift; sourceTree = "<group>"; };
+		C65EC48324EACDDE00D8C439 /* CityVisitorsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityVisitorsModel.swift; sourceTree = "<group>"; };
+		C65EC48424EACDDE00D8C439 /* CityDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,6 +392,7 @@
 		C65EC45024EACB3700D8C439 /* CityDetails */ = {
 			isa = PBXGroup;
 			children = (
+				C65EC48124EACCDE00D8C439 /* Models */,
 			);
 			path = CityDetails;
 			sourceTree = "<group>";
@@ -399,6 +408,7 @@
 		C65EC45224EACB5400D8C439 /* Managers&Services */ = {
 			isa = PBXGroup;
 			children = (
+				C65EC45D24EACC7A00D8C439 /* Networking */,
 				C65EC45324EACB7900D8C439 /* PersistentStorage */,
 			);
 			path = "Managers&Services";
@@ -417,6 +427,32 @@
 			children = (
 				C65EC45724EACBCA00D8C439 /* CityModel.swift */,
 				C65EC45824EACBCA00D8C439 /* CityViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C65EC45D24EACC7A00D8C439 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C65EC47E24EACC9F00D8C439 /* Models */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C65EC47E24EACC9F00D8C439 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C65EC47F24EACCCF00D8C439 /* APIResponses.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C65EC48124EACCDE00D8C439 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C65EC48424EACDDE00D8C439 /* CityDetailsModel.swift */,
+				C65EC48224EACDDE00D8C439 /* CityRatingModel.swift */,
+				C65EC48324EACDDE00D8C439 /* CityVisitorsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -638,15 +674,19 @@
 				C65EC43F24EAC89300D8C439 /* UIView+Extensions.swift in Sources */,
 				C65EC45524EACB7900D8C439 /* FavoriteManager.swift in Sources */,
 				C65EC45924EACBCA00D8C439 /* CityModel.swift in Sources */,
+				C65EC48624EACDDE00D8C439 /* CityVisitorsModel.swift in Sources */,
 				C65EC45A24EACBCA00D8C439 /* CityViewModel.swift in Sources */,
 				C65EC44024EAC89300D8C439 /* UIImage+Extensions.swift in Sources */,
 				C65EC3AB24EABDAB00D8C439 /* ViewController.swift in Sources */,
+				C65EC48724EACDDE00D8C439 /* CityDetailsModel.swift in Sources */,
 				C65EC44824EAC8D700D8C439 /* ErrorViewModel.swift in Sources */,
 				C65EC44D24EACAF900D8C439 /* Dependencies.swift in Sources */,
 				C65EC44A24EAC8D700D8C439 /* StatePresentingProtocol.swift in Sources */,
+				C65EC48024EACCCF00D8C439 /* APIResponses.swift in Sources */,
 				C65EC44724EAC8D700D8C439 /* LoadingView.swift in Sources */,
 				C65EC44924EAC8D700D8C439 /* ErrorViewController.swift in Sources */,
 				C65EC3A724EABDAB00D8C439 /* AppDelegate.swift in Sources */,
+				C65EC48524EACDDE00D8C439 /* CityRatingModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
