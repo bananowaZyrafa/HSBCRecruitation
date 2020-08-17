@@ -21,8 +21,8 @@ final class CitiesListCoordinator: BaseCoordinator {
     }
     
     func presentDetails(ofCity cityViewModel: CityViewModel) {
-//        let coordinator = CityDetailsCoordinator(dependencies: dependencies, cityViewModel: cityViewModel)
-//        start(coordinator: coordinator)
+        let coordinator = CityDetailsCoordinator(dependencies: dependencies, cityViewModel: cityViewModel)
+        start(coordinator: coordinator)
     }
 }
 
