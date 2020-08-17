@@ -62,6 +62,7 @@
 		C65EC48F24EACF5D00D8C439 /* CityDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC48D24EACF5D00D8C439 /* CityDetailsService.swift */; };
 		C65EC49024EACF5D00D8C439 /* CitiesListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC48E24EACF5D00D8C439 /* CitiesListService.swift */; };
 		C65EC49224EACF7200D8C439 /* NetworkingConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC49124EACF7200D8C439 /* NetworkingConstants.swift */; };
+		C65EC49424EACFC500D8C439 /* CityDetailsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC49324EACFC500D8C439 /* CityDetailsDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +179,7 @@
 		C65EC48D24EACF5D00D8C439 /* CityDetailsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailsService.swift; sourceTree = "<group>"; };
 		C65EC48E24EACF5D00D8C439 /* CitiesListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesListService.swift; sourceTree = "<group>"; };
 		C65EC49124EACF7200D8C439 /* NetworkingConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingConstants.swift; sourceTree = "<group>"; };
+		C65EC49324EACFC500D8C439 /* CityDetailsDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailsDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +404,7 @@
 		C65EC45024EACB3700D8C439 /* CityDetails */ = {
 			isa = PBXGroup;
 			children = (
+				C65EC49324EACFC500D8C439 /* CityDetailsDataProvider.swift */,
 				C65EC48A24EACF0C00D8C439 /* CityDetailsNetworkProvider.swift */,
 				C65EC48124EACCDE00D8C439 /* Models */,
 			);
@@ -696,6 +699,7 @@
 				C65EC43D24EAC89300D8C439 /* UIImageView+Extensions.swift in Sources */,
 				C65EC43F24EAC89300D8C439 /* UIView+Extensions.swift in Sources */,
 				C65EC45524EACB7900D8C439 /* FavoriteManager.swift in Sources */,
+				C65EC49424EACFC500D8C439 /* CityDetailsDataProvider.swift in Sources */,
 				C65EC48924EACE6000D8C439 /* CitiesListNetworkProvider.swift in Sources */,
 				C65EC45924EACBCA00D8C439 /* CityModel.swift in Sources */,
 				C65EC48624EACDDE00D8C439 /* CityVisitorsModel.swift in Sources */,
