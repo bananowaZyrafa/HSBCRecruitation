@@ -11,6 +11,14 @@
 		C65EC3AB24EABDAB00D8C439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC3AA24EABDAB00D8C439 /* ViewController.swift */; };
 		C65EC3B024EABDB000D8C439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65EC3AF24EABDB000D8C439 /* Assets.xcassets */; };
 		C65EC3BE24EABDB100D8C439 /* HSBCCitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC3BD24EABDB100D8C439 /* HSBCCitiesTests.swift */; };
+		C65EC43D24EAC89300D8C439 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC43924EAC89300D8C439 /* UIImageView+Extensions.swift */; };
+		C65EC43E24EAC89300D8C439 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC43A24EAC89300D8C439 /* UIViewController+Extensions.swift */; };
+		C65EC43F24EAC89300D8C439 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC43B24EAC89300D8C439 /* UIView+Extensions.swift */; };
+		C65EC44024EAC89300D8C439 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC43C24EAC89300D8C439 /* UIImage+Extensions.swift */; };
+		C65EC44724EAC8D700D8C439 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC44224EAC8D600D8C439 /* LoadingView.swift */; };
+		C65EC44824EAC8D700D8C439 /* ErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC44424EAC8D600D8C439 /* ErrorViewModel.swift */; };
+		C65EC44924EAC8D700D8C439 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC44524EAC8D600D8C439 /* ErrorViewController.swift */; };
+		C65EC44A24EAC8D700D8C439 /* StatePresentingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC44624EAC8D700D8C439 /* StatePresentingProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,14 @@
 		C65EC3B924EABDB100D8C439 /* HSBCCitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSBCCitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65EC3BD24EABDB100D8C439 /* HSBCCitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBCCitiesTests.swift; sourceTree = "<group>"; };
 		C65EC3BF24EABDB100D8C439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65EC43924EAC89300D8C439 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		C65EC43A24EAC89300D8C439 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		C65EC43B24EAC89300D8C439 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		C65EC43C24EAC89300D8C439 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		C65EC44224EAC8D600D8C439 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C65EC44424EAC8D600D8C439 /* ErrorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewModel.swift; sourceTree = "<group>"; };
+		C65EC44524EAC8D600D8C439 /* ErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		C65EC44624EAC8D700D8C439 /* StatePresentingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatePresentingProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,8 @@
 		C65EC3A524EABDAB00D8C439 /* HSBCCities */ = {
 			isa = PBXGroup;
 			children = (
+				C65EC44124EAC8AA00D8C439 /* Reusables */,
+				C65EC43824EAC89300D8C439 /* Extensions */,
 				C65EC3A624EABDAB00D8C439 /* AppDelegate.swift */,
 				C65EC3AA24EABDAB00D8C439 /* ViewController.swift */,
 				C65EC3AF24EABDB000D8C439 /* Assets.xcassets */,
@@ -88,6 +106,36 @@
 				C65EC3BF24EABDB100D8C439 /* Info.plist */,
 			);
 			path = HSBCCitiesTests;
+			sourceTree = "<group>";
+		};
+		C65EC43824EAC89300D8C439 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C65EC43924EAC89300D8C439 /* UIImageView+Extensions.swift */,
+				C65EC43A24EAC89300D8C439 /* UIViewController+Extensions.swift */,
+				C65EC43B24EAC89300D8C439 /* UIView+Extensions.swift */,
+				C65EC43C24EAC89300D8C439 /* UIImage+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C65EC44124EAC8AA00D8C439 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				C65EC44324EAC8D600D8C439 /* Error */,
+				C65EC44224EAC8D600D8C439 /* LoadingView.swift */,
+				C65EC44624EAC8D700D8C439 /* StatePresentingProtocol.swift */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		C65EC44324EAC8D600D8C439 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				C65EC44424EAC8D600D8C439 /* ErrorViewModel.swift */,
+				C65EC44524EAC8D600D8C439 /* ErrorViewController.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65EC43E24EAC89300D8C439 /* UIViewController+Extensions.swift in Sources */,
+				C65EC43D24EAC89300D8C439 /* UIImageView+Extensions.swift in Sources */,
+				C65EC43F24EAC89300D8C439 /* UIView+Extensions.swift in Sources */,
+				C65EC44024EAC89300D8C439 /* UIImage+Extensions.swift in Sources */,
 				C65EC3AB24EABDAB00D8C439 /* ViewController.swift in Sources */,
+				C65EC44824EAC8D700D8C439 /* ErrorViewModel.swift in Sources */,
+				C65EC44A24EAC8D700D8C439 /* StatePresentingProtocol.swift in Sources */,
+				C65EC44724EAC8D700D8C439 /* LoadingView.swift in Sources */,
+				C65EC44924EAC8D700D8C439 /* ErrorViewController.swift in Sources */,
 				C65EC3A724EABDAB00D8C439 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
