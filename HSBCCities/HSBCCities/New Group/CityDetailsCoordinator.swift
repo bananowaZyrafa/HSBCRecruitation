@@ -12,8 +12,8 @@ final class CityDetailsCoordinator: BaseCoordinator {
     }
     
     func presentVisitors(visitors: [Visitor]) {
-//        let coordinator = CityVisitorsCoordinator(presentationStyle: .modal, visitors: visitors)
-//        start(coordinator: coordinator)
+        let coordinator = CityVisitorsCoordinator(presentationStyle: .modal, visitors: visitors)
+        start(coordinator: coordinator)
     }
 }
 
