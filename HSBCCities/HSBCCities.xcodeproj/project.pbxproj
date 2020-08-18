@@ -51,7 +51,6 @@
 		C65EC42924EAC44000D8C439 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC42424EAC44000D8C439 /* BaseCoordinator.swift */; };
 		C65EC42A24EAC44000D8C439 /* ParentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC42524EAC44000D8C439 /* ParentCoordinator.swift */; };
 		C65EC42B24EAC44000D8C439 /* PresentationStyleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC42624EAC44000D8C439 /* PresentationStyleEnum.swift */; };
-		C65EC42D24EAC50F00D8C439 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C65EC42C24EAC50F00D8C439 /* Default-568h@2x.png */; };
 		C65EC43D24EAC89300D8C439 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC43924EAC89300D8C439 /* UIImageView+Extensions.swift */; };
 		C65EC43E24EAC89300D8C439 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC43A24EAC89300D8C439 /* UIViewController+Extensions.swift */; };
 		C65EC43F24EAC89300D8C439 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC43B24EAC89300D8C439 /* UIView+Extensions.swift */; };
@@ -87,6 +86,7 @@
 		C65EC4AE24EAD53000D8C439 /* CityVisitorsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC4AD24EAD53000D8C439 /* CityVisitorsCoordinator.swift */; };
 		C65EC4B124EAD54A00D8C439 /* CityVisitorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC4AF24EAD54A00D8C439 /* CityVisitorsViewModel.swift */; };
 		C65EC4B224EAD54A00D8C439 /* CityVisitorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EC4B024EAD54A00D8C439 /* CityVisitorsViewController.swift */; };
+		C6B0E71324EBF428009754CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B0E71224EBF428009754CB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,7 +192,6 @@
 		C65EC42424EAC44000D8C439 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		C65EC42524EAC44000D8C439 /* ParentCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentCoordinator.swift; sourceTree = "<group>"; };
 		C65EC42624EAC44000D8C439 /* PresentationStyleEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStyleEnum.swift; sourceTree = "<group>"; };
-		C65EC42C24EAC50F00D8C439 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C65EC43924EAC89300D8C439 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		C65EC43A24EAC89300D8C439 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		C65EC43B24EAC89300D8C439 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -228,6 +227,7 @@
 		C65EC4AD24EAD53000D8C439 /* CityVisitorsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityVisitorsCoordinator.swift; sourceTree = "<group>"; };
 		C65EC4AF24EAD54A00D8C439 /* CityVisitorsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityVisitorsViewModel.swift; sourceTree = "<group>"; };
 		C65EC4B024EAD54A00D8C439 /* CityVisitorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityVisitorsViewController.swift; sourceTree = "<group>"; };
+		C6B0E71224EBF428009754CB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,7 +307,6 @@
 		C65EC39A24EABDAB00D8C439 = {
 			isa = PBXGroup;
 			children = (
-				C65EC42C24EAC50F00D8C439 /* Default-568h@2x.png */,
 				C65EC3A524EABDAB00D8C439 /* HSBCCities */,
 				C65EC3BC24EABDB100D8C439 /* HSBCCitiesTests */,
 				C65EC3CE24EAC11C00D8C439 /* Networking */,
@@ -340,6 +339,7 @@
 				C65EC3A624EABDAB00D8C439 /* AppDelegate.swift */,
 				C65EC4A024EAD19E00D8C439 /* Coordinator */,
 				C65EC3B424EABDB000D8C439 /* Info.plist */,
+				C6B0E71224EBF428009754CB /* LaunchScreen.storyboard */,
 				C65EC4A324EAD29300D8C439 /* Assets.xcassets */,
 			);
 			path = HSBCCities;
@@ -759,8 +759,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B0E71324EBF428009754CB /* LaunchScreen.storyboard in Resources */,
 				C65EC4A424EAD29300D8C439 /* Assets.xcassets in Resources */,
-				C65EC42D24EAC50F00D8C439 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
